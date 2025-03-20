@@ -97,6 +97,7 @@ const ContactForm: React.FC = () => {
   return (
     <div className="max-w-md mx-auto my-8 p-6 bg-white rounded shadow-md">
       <h2 className="text-2xl font-bold mb-6 text-center">Contact Us</h2>
+      <p className="text-2x2 font-bold mb-6">Please note: The app is designed to simulate a network failure 10% of the time.</p>
       
       {submitResult.status && (
         <div 
